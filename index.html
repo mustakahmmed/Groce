@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groce</title>
+
+
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav class="mt-3">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns=""
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li class="font-extrabold text-2xl"><a>Home</a></li>
+                      <li><a class="font-medium">Categories</a></li>
+                      <li><a class="font-medium">Contact</a></li>
+                      <li><a class="font-medium">Blog</a></li>
+                      <li><a class="font-medium">Service</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"><img src="image/Group 91.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="font-bold"><a>Home</a></li>
+                      <li><a class="font-medium">Categories</a></li>
+                      <li><a class="font-medium">Contact</a></li>
+                      <li><a class="font-medium">Blog</a></li>
+                      <li><a class="font-medium">Service</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                 <ul class="flex justify-around px-5">
+                    <li class="mr-5 hover:bg-gray-100 px-3 py-2 rounded-3xl"><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                    <li class=" hover:bg-gray-100 px-3 py-2 rounded-3xl "><a href=""><img src="image/Compare.png" alt=""></a></li>
+                    <li class="mx-5  hover:bg-gray-100 px-3 py-2 rounded-3xl"><a href=""><img src="image/Grocery.png" alt=""></a></li>
+                    <li class="mr-5  hover:bg-gray-100 px-3 py-2 rounded-3xl "><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class=""> <a class=" bg-green-600 px-6 py-4 rounded-lg hover:bg-green-500 font-bold text-white">SIGN IN</a></li>
+                 </ul>
+                </div>
+              </div>
+        </nav>
+
+        <!--bootom header section -->
+        <div>
+          <div style="background-image: url(image/Vector.png),url(image/Vector\ \(1\).png);" class="flex justify-around items-center w-full h-1/3 bg-no-repeat bg-bottom bg-contain py-20" >
+            <!-- text 1 -->
+            <div>
+                <h4 class="font-bold">100% Healthy & Tasty</h4>
+                <h1 class="text-8xl font-bold"><span class="text-green-500">ORGANIC </span>FOOD</h1>
+                <p>A place where help you to buy fresh grocery.<br>Tasty and 100% healthy </p>
+                <div class="my-7">
+                    <button class="mr-5 px-5 py-3 bg-orange-500 hover:bg-orange-400 text-white font-bold rounded-lg">How To Order</button>
+                  <button class="px-5 py-3 rounded-lg border-black border-2 font-semibold hover:bg-gray-100">Get Sele</button>
+                  </div>
+
+                  <!-- review card -->
+                    <div class="flex items-center px-4 py-7 w-1/2 bg-black bg-opacity-50 mt-28 rounded-md">
+                      <div class="mr-3"><img src="image/Ellipse 5.png" alt=""></div>
+                      <div>
+                        <h1 class="text-white font-bold">Marina Stevani</h1>
+
+                        <div class="rating rating-sm">
+                          <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                          <input
+                            type="radio"
+                            name="rating-6"
+                            class="mask mask-star-2 bg-orange-400"
+                            checked="checked" />
+                          <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                          <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+
+                        <p class="text-white">Made everyone feel at ease and<br>was extremely attentive towards<br>allergies and intolerances.</p>
+                      </div>
+                    </div>
+
+            </div>
+        
+            <!-- img div -->
+            <div>
+                <div>
+
+                 <div class="relative">
+                  <img class="absolute top-36" src="image/unsplash_f1BMuugVyyM.png" alt="">
+                  <img class="absolute right-11" src="image/Rectangle 71.png" alt="">
+                  <img class="absolute bottom-16 right-24" src="image/Rectangle 75.png" alt="">
+                  <img class="w-full h-full" src="image/unsplash_xeTv9N2FjXA.png" alt="" srcset="">
+
+                  <!-- rating -->
+                   <div class="bg-black bg-opacity-60 p-3 rounded-lg w-1/3 absolute bottom-5 left-40 text-center">
+                    <div class="rating rating-md">
+                      <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                      <input
+                        type="radio"
+                        name="rating-7"
+                        class="mask mask-star-2 bg-orange-400"
+                         />
+                      <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                    </div>
+                   </div>
+                 </div>
+
+
+                  <!-- card -->
+                  <div class="flex justify-between">
+                    <!-- card-1 -->
+                    <div class="flex justify-center items-center">
+                      <div class="avatar">
+                        <div class="w-full rounded-full bg-white p-3">
+                          <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                      </div>
+                      <div class="text-left pl-3">
+                        <h1 class="font-extrabold text-white">Fast Delivery</h1>
+                        <p class="text-sm text-white">Deliver within 30<br>minutes</p>
+                      </div>
+                    </div>
+                     <!-- card-2 -->
+                     <div class="flex justify-center items-center mx-5">
+                      <div class="avatar">
+                        <div class="w-full rounded-full bg-white p-3">
+                          <i class="fa-solid fa-utensils"></i>
+                        </div>
+                      </div>
+                      <div class="text-left pl-3">
+                        <h1 class="font-extrabold text-white">Dine in</h1>
+                        <p class="text-sm text-white">Deliver within 30<br>minutes</p>
+                      </div>
+                    </div>
+                     <!-- card-3 -->
+                     <div class="flex justify-center items-center">
+                      <div class="avatar">
+                        <div class="w-full rounded-full bg-white p-3">
+                          <i class="fa-solid fa-shop"></i>
+                        </div>
+                      </div>
+                      <div class="text-left pl-3">
+                        <h1 class="font-extrabold text-white">Pick up</h1>
+                        <p class="text-sm text-white">Deliver within 30<br>minutes</p>
+                      </div>
+                    </div>
+
+                  </div>                  
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+<!-- top main section -->
+ <section>
+  <div style="background-image: url(image/image\ 40.png);" class="bg-[#4b9928] py-28 rounded-t-3xl relative bottom-4 shadow bg-no-repeat bg-cover">
+    <ul class="text-white flex justify-around ">
+
+      <li>
+        <h1 class="text-5xl font-bold mb-2">1975+</h1>
+        <p>Total Products</p>
+      </li>
+
+      <li>
+        <h1 class="text-5xl font-bold mb-2">2880+</h1>
+        <p>Satisfied Clients</p>
+      </li>
+
+      <li>
+        <h1 class="text-5xl font-bold mb-2">3219+</h1>
+        <p>Project Completed</p>
+      </li>
+
+      <li>
+        <h1 class="text-5xl font-bold mb-2">100%</h1>
+        <p>Guarantee</p>
+      </li>
+    </ul>
+  </div>
+ </section>
+ <!-- section 2 -->
+  <section>
+
+   <div class="flex justify-around py-36 bg-white relative bottom-10 rounded-t-3xl">
+
+    <!-- img div -->
+<div class="flex-1 ">
+
+  <div >
+    <div class="flex justify-center relative">
+     <img src="image/Ellipse 6.png" alt="">
+     <img class="absolute" src="image/Ellipse 8.png" alt="">
+     <img src="image/Ellipse 7.png" alt="">
+     <div class="absolute  top-48">
+      <button class="py-2 px-14 bg-green-600 rounded-full text-white font-bold hover:bg-green-500">20+ Years Experience</button>
+     </div>
+    </div>
+    
+
+</div>
+
+    </div>
+    <!-- text div -->
+    <div class="flex-1">
+      <h1 class="text-4xl font-bold"><span class="text-green-400">HIGH QUALITY</span><br>ORGANIC FOOD STORE</h1>
+      <p class="w-4/5 text-justify my-7">Founded in 2009, GROCE is a family business that started with a 3,500 square meter farm located in Karyawangi Village, West Bandung. It soon expanded to an organic movement that encourages people to not only consume organic vegetables, but also plant it too, wherever they may be. From them you can purchase both the farm produce (vegetables, microgreens, etc) and also tools and supplies to start your own garden.</p>
+      <p class="border-l-8 border-green-400 w-4/5 px-3 text-sm text-it mb-5"><i>Finding organic food in Jakarta can be tricky but it’s not impossible! Here are some great organic food sellers who delivers right to your door!</i></p>
+
+      <img class="w-20" src="image/Frame 113.png" alt="">
+    </div>
+   </div>
+
+  </section>
+
+  <!-- section3:Our Best Categories -->
+   <section>
+    <h1 class="text-5xl font-bold text-center">Our Best Categories</h1>
+    <!-- section-3:cards -->
+      <div class="flex justify-around w-4/5 mx-auto gap-10 my-20">
+        <!-- card-1 -->
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="image/Frame 115.png"
+              alt="Vegetables"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Vegetables</h2>
+            <p class="mt-3 mb-5">Purchasing from select family farmers who farms organically</p>
+            <div class="card-actions hover:bg-slate-50">
+              <button class="px-5 py-3 border-solid border-2 border-black rounded-xl">ORDER NOW</button>
+            </div>
+          </div>
+        </div>
+
+         <!-- card-2 -->
+         <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="image/Frame 115 (1).png"
+              alt="Fruits"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Fruits</h2>
+            <p class="mt-3 mb-5">Purchasing from select family farmers who farms organically</p>
+            <div class="card-actions hover:bg-slate-50">
+              <button class="px-5 py-3 border-solid border-2 border-black rounded-xl">ORDER NOW</button>
+            </div>
+          </div>
+        </div>
+
+         <!-- card-3 -->
+         <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="image/Frame 115 (2).png"
+              alt="Salad"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Salad</h2>
+            <p class="mt-3 mb-5">Purchasing from select family farmers who farms organically</p>
+            <div class="card-actions hover:bg-slate-50">
+              <button class="px-5 py-3 border-solid border-2 border-black rounded-xl">ORDER NOW</button>
+            </div>
+          </div>
+        </div>
+
+         <!-- card-4 -->
+         <div style="background-image: url(image/image\ 40.png);" class="card bg-green-600 w-96 shadow-xl">
+          <div class="flex flex-col items-center my-auto text-white">
+            <h1 class="font-bold">Others</h1>
+            <p class="mt-3 mb-6">Milk, Tools, Spice, etc.</p>
+            <button class="px-5 py-3 border-solid border-2 rounded-2xl hover:bg-green-700"><span class="font-bold">See Others </span><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+        </div>
+
+      </div>
+   </section>
+
+   <!-- section4:we are here for you -->
+   <section class="flex justify-around items-center my-32">
+    <div class="">
+      <h1 class="text-4xl font-bold">We are here<span class="text-green-600"> for You</span></h1>
+      <p class="mt-3 mb-5">Groce could be your daily service. We set the high standard inspired by<br> forest system to produce healthy crops with the authentic taste of vegetables</p>
+
+      <ul>
+        <li><i class="fa-regular fa-circle-check text-green-600 mr-2"></i>Best service and fast response</li>
+        <li><i class="fa-regular fa-circle-check text-green-600 mr-2"></i>Userfriendly app</li>
+        <li><i class="fa-regular fa-circle-check text-green-600 mr-2"></i>Profesional staff</li>
+      </ul>
+      <div class="flex justify-start my-10">
+        <img class="mr-4" src="image/Download_on_the_App_Store_logo.png" alt="">
+        <img src="image/Google_Play_Store_badge_EN 1.png" alt="">
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-5 ">
+       <!-- card-1 -->
+       <div class="flex justify-center items-center shadow-xl px-10 py-4 rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full bg-green-600 p-3">
+            <i class="fa-solid fa-truck-fast text-white"></i>
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold ">Fast Delivery</h1>
+          <p class="text-sm">Deliver within 30<br>minutes</p>
+        </div>
+      </div>
+
+       <!-- card-2 -->
+       <div class="flex justify-center items-center shadow-xl px-10 py-4 rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full bg-green-600 p-3">
+            <i class="fa-solid fa-leaf text-white"></i>
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold">Fresh Foods</h1>
+          <p class="text-sm">Enjoy your food fresh<br>and healthy</p>
+        </div>
+      </div>
+
+       <!-- card-3 -->
+       <div class="flex justify-center items-center shadow-xl px-10 py-4 rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full bg-green-600 p-3">
+            <i class="fa-solid fa-utensils text-white"></i>
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold">Dine in</h1>
+          <p class="text-sm">Deliver within 30<br>minutes</p>
+        </div>
+      </div>
+
+       <!-- card-4 -->
+       <div class="flex justify-center items-center shadow-xl px-10 py-4 rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full bg-green-600 p-3">
+            <i class="fa-solid fa-shop text-white"></i>
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold">Pick up</h1>
+          <p class="text-sm">Deliver within 30<br>minutes</p>
+        </div>
+      </div>
+
+    </div>
+   </section>
+
+
+   <!-- section-5 -->
+    <section>
+      <div class="">
+        <h1 class="text-4xl font-bold text-center">Our Blog Post</h1>
+        <!-- card section -->
+         <div class="flex justify-center gap-5 my-20">
+          <!-- card-1 -->
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="image/Frame 115 (3).png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">5 Reasons It's Time to Upgrade Your Vitamin Routine</h2>
+              <p class="my-4">Your recommendations are backed by our scientific advisory board, made of leading doctors, scientists, and nutritionists. We ar</p>
+              <!-- card-1-avater -->
+       <div class="flex justify-start items-start rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full">
+            <img src="image/Ellipse 5.png" alt="">
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold ">French Aldebra</h1>
+          <p class="text-sm text-gray-400">Apr 1, 2022</p>
+        </div>
+      </div>
+            </div>
+          </div>
+
+          <!-- card-2 -->
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="image/Frame 115 (4).png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Health : Recipes and fitness tips for 2018</h2>
+              <p class="my-4">Your recommendations are backed by our scientific advisory board, made of leading doctors, scientists, and nutritionists. We ar</p>
+              <!-- card-2-avater -->
+       <div class="flex justify-start items-start rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full">
+            <img src="image/Ellipse 5.png" alt="">
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold ">French Aldebra</h1>
+          <p class="text-sm text-gray-400">Apr 1, 2022</p>
+        </div>
+      </div>
+            </div>
+          </div>
+
+          <!-- card-3 -->
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="image/Frame 115 (5).png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">5 ways to de-stress over the holidays</h2>
+              <p class="my-4">Your recommendations are backed by our scientific advisory board, made of leading doctors, scientists, and nutritionists. We ar</p>
+              <!-- card-3-avater -->
+       <div class="flex justify-start items-start rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full">
+            <img src="image/Ellipse 5.png" alt="">
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold ">French Aldebra</h1>
+          <p class="text-sm text-gray-400">Apr 1, 2022</p>
+        </div>
+      </div>
+            </div>
+          </div>
+
+          <!-- card-4 -->
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="image/Frame 115 (6).png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Personalized Vitamins for 2021: A Dietitian's Review</h2>
+              <p class="my-4">Your recommendations are backed by our scientific advisory board, made of leading doctors, scientists, and nutritionists. We ar</p>
+              <!-- card-4-avater -->
+       <div class="flex justify-start items-start rounded-xl">
+        <div class="avatar">
+          <div class="w-full rounded-full">
+            <img src="image/Ellipse 5.png" alt="">
+          </div>
+        </div>
+        <div class="text-left pl-3">
+          <h1 class="font-extrabold ">French Aldebra</h1>
+          <p class="text-sm text-gray-400">Apr 1, 2022</p>
+        </div>
+      </div>
+            </div>
+          </div>
+
+
+
+         </div>
+
+      </div>
+
+    </section>
+
+    <!-- section-6 -->
+     <section>
+        <h1 class="font-bold text-4xl text-center">Subscribe to Newslatter</h1>
+
+      <div style="background-image: url(image/image\ 40.png);" class="my-20 flex justify-around items-center bg-[#58b12f]">
+        <div class="relative">
+          <img class="absolute left-48" src="image/Rectangle 69.png" alt="">
+          <img class="absolute top-32 -left-14" src="image/unsplash_Lv174o7fn7Y.png" alt="">
+          <img class="" src="image/unsplash_114R2tFk8gI.png" alt="">
+         
+        </div>
+
+        <div class="flex flex-row gap-1">
+          <input type="text" placeholder="Enter your email address" class="input input-bordered border-black w-full " />
+          <button class="bg-orange-500 px-7 py-3 rounded-xl text-white font-bold">SUBSCRIBE</button>
+        </div>
+
+      </div>
+     </section>
+
+    </main> 
+    <footer>
+
+      <div class="flex justify-around bg-orange-500 p-10 rounded-t-2xl mt-52 w-10/12 m-auto">
+        <div>
+          <img src="image/Group 90.png" alt="">
+        </div>
+        <div>
+          <p class="text-white">Copyright © {new Date().getFullYear()} |<span class="text-green-400">Green Studio</span>| All right reserved</p>
+        </div>
+        <div class="text-white">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube mx-4"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-solid fa-x ml-4"></i>
+
+        </div>
+      </div>
+
+    </footer>
+    
+</body>
+</html>
